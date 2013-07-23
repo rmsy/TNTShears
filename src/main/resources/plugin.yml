@@ -1,0 +1,12 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: rmsy
+website: ${project.url}
+main: ${plugin.mainClass}
+prefix: ${plugin.prefix}
+
+permissions:
+    tntshears.defuse:
+        description: Allows the user to defuse TNT.
+        default: op
